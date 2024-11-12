@@ -4,7 +4,7 @@ export default function card() {
     return (
         <div className="card">
             <div className="bg">
-                <span>
+                <span className='fine-text'>
                     600 x 400
                 </span>
             </div>

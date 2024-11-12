@@ -6,12 +6,11 @@
 }
 
 body {
-
+  overflow-x: hidden;
   background-color: #e5e5e5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
 }
 
@@ -25,7 +24,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-bottom: 9rem;
+
 
   h2 {
     font-size: 36px;
@@ -39,6 +38,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: calc(96vh - 100px);
 
   .card {
     width: 100%;
@@ -89,9 +89,9 @@ main {
       color: #fff;
       padding: 0.8rem 1.5rem;
       border: none;
-      border-radius: 5px;
       cursor: pointer;
       font-size: 1rem;
+      font-size: 12px;
     }
 
     .btn:hover {
@@ -100,4 +100,14 @@ main {
     }
   }
 
+}
+
+
+footer {
+  width: 100vw;
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  height: 100px;
+  padding: 1.5rem 0;
 }
